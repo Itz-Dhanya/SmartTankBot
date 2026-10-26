@@ -1,0 +1,9 @@
+{
+  "project": "SmartTankBot",
+  "mode": "simulation",
+  "connected": true,
+  "movement": "stopped",
+  "brush": "off",
+  "battery_percent": 85,
+  "last_command": "stop"
+}
