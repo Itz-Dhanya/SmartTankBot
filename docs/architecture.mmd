@@ -1,0 +1,11 @@
+
+flowchart TD
+    A[Operator] --> B[Web Control Interface]
+    B <-->|Wi-Fi / command and status messages| C[ESP32 Controller]
+    C --> D[Motor Driver]
+    D --> E[Movement Motors]
+    C --> F[Brush Motor Driver]
+    F --> G[Rotating Brush]
+    H[Battery and Power Regulation] --> C
+    H --> D
+    H --> F
